@@ -11,6 +11,8 @@
 |
 */
 
+use Barryvdh\DomPDF\PDF;
+
 Route::group(['middleware' => 'auth'], function () {
 
     //POS
